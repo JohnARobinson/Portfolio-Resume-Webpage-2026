@@ -1,16 +1,19 @@
 # Portfolio-Resume-Webpage-2026
 Current Portfolio Resume Webpage for John Robinson
-
+<br>
 **About**
-
+<br>
 Over time I have been creating mor sophisticated portfolio webpages, this was one of my earlier ones, but a skillset is built over time with successive projects building on skills.
-
-Tech Stack
+<br>
+**Tech Stack**
+<br>
 Frontend: React, React Router, CSS
+<br>
 Backend: Spring Boot / Node / none
-
-What I Learned / Challenges
-Two major shifts from previous resume page was the use and implementation of react cards, and t reusable components, specifically ones for projects, experience and my Devlog. This should future proof my site for a while and allow me continuously add content without hardcoding new components. The second was a major in graphic design. I feel I have vastly improved my graphic design skills since my last implementation.
+<br>
+**What I Learned / Challenges**
+<br>
+Two major shifts from previous resume page was the use and implementation of react cards, and t reusable components, specifically ones for projects, experience and my Devlog. This should future proof my site for a while and allow me continuously add content without hardcoding new components. The second was a major in graphic design. I feel I have vastly improved my graphic design skills since my last implementation. Major challenges I faced was and still is graphic design, its one of my main weaknesses. 
 
 <img width="1892" height="826" alt="image" src="https://github.com/user-attachments/assets/b335c833-de11-4695-bea2-10e3fe88d8b4" />
 
