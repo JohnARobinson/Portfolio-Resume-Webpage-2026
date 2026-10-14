@@ -1,21 +1,31 @@
 # Portfolio-Resume-Webpage-2026
+<br>
+<br>
 Current Portfolio Resume Webpage for John Robinson
+<br>
 <br>
 **About**
 <br>
+<br>
 Over time I have been iterating more sophisticated and technical portfolio webpages, this is my more recent portfolio webpage. Major changes include graphic design overhaul, reusable react components for skills, experience, projects and my new devlog. More interactivity in all elements. The contact page being actually functional this time. I contacted EmailJS to allow user to contact me without having to pull up Outlook.
 <br>
+<br>
 **Tech Stack**
+<br>
 <br>
 Frontend: React, React Router, CSS
 <br>
 Backend: Spring Boot / Node / none
 <br>
+<br>
 **What I Learned / Challenges**
+<br>
 <br>
 Two major shifts from previous resume page was the use and implementation of react cards, and reusable components, specifically ones for projects, experience and my Devlog. This should future proof my site for a while and allow me continuously add content without hardcoding new components. The second was a major in graphic design. I feel I have vastly improved my graphic design skills since my last implementation. Major challenges I faced was and still is graphic design, its one of my main weaknesses. 
 <br>
-**Future Plans / ToDo**
+<br>
+**Future Plans / Todo**
+<br>
 <br>
 Finish clearing up and adding projects to projects page and github repos
 <br>
@@ -24,6 +34,7 @@ Finish writing and upload first few devlogs, work is done, just have to write an
 Continuously add new Experience and skills as they are acquired 
 <br>
 Continuously updated new gamedev blog based on progress
+<br>
 <br>
 <img width="1892" height="826" alt="image" src="https://github.com/user-attachments/assets/b335c833-de11-4695-bea2-10e3fe88d8b4" />
 
