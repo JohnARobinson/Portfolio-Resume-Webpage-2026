@@ -1,0 +1,117 @@
+.projects-page {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.projects-page h1 {
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text);
+}
+.projects-page-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--space-lg, 15rem);
+  align-items: start;
+  position: relative;
+  z-index: 1; /* sits above the glow blobs */
+}
+.project-cards {
+  gap: 2rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  width: 100%;
+  background-color: var(--card);
+  height: 100%;
+  border-left: 2px solid var(--purple);
+}
+
+.project-list li {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  color: var(--muted);
+  padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+}
+
+.projects-name {
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text);
+}
+.project-category {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  color: var(--muted);
+}
+.project-description {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  color: var(--muted);
+  flex: 1;
+}
+.projects-page .project-cards {
+  gap: 2rem;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+}
+.project-link {
+  margin-top: 2rem;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: var(--text);
+  background-color: var(--purple);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+.project-link a:hover {
+  background: var(--purple-dim);
+  cursor: pointer;
+  color: var(--text);
+  z-index: 1;
+}
+.project-tag {
+  display: inline-block;
+  background-color: var(--card);
+  color: var(--text);
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  margin-top: auto;
+}
+
+.project-list a {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  color: var(--text);
+  text-decoration: none;
+}
+.project-list a:hover {
+  text-decoration: underline;
+  color: var(--text);
+}

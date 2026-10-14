@@ -1,0 +1,114 @@
+/* Navigation bar styling */
+nav {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 4rem;
+  height: var(--nav-height);
+  background: var(--nav-bg);
+
+  border-bottom: 1px solid var(--border);
+
+  /* Smooth hide/show on scroll (optional — see JS below) */
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+
+  color: var(--muted);
+}
+
+/* Logo styling */
+.nav-logo {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  color: var(--text);
+  text-decoration: none;
+  cursor: pointer;
+
+  /* Subtle lift on hover */
+  transition: opacity 0.2s;
+}
+
+.nav-logo:hover {
+  opacity: 0.8;
+}
+
+/* The accent dot after the initials: JR. */
+.nav-logo span {
+  color: var(--accent);
+}
+
+/* Navigation links container */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: var(--muted);
+}
+
+.nav-links a,
+.nav-links button {
+  font-family: "DM Mono", monospace;
+  font-size: 0.78rem;
+  color: var(--nav-text);
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  /* Reset button defaults */
+  background: none;
+  border: none;
+  padding: 0;
+
+  /* Underline grows in from left on hover */
+  position: relative;
+  transition: color 0.2s;
+}
+
+.nav-links a::after,
+.nav-links button::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+/*state when the link is active or hovered */
+.nav-links a:hover,
+.nav-links button:hover {
+  color: var(--accent);
+}
+
+.nav-links a:hover::after,
+.nav-links button:hover::after {
+  transform: scaleX(1);
+}
+
+/* Active: current page link */
+.nav-links a.active {
+  color: var(--accent);
+}
+
+.nav-links a.active::after {
+  transform: scaleX(1);
+}

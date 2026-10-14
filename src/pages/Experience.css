@@ -1,0 +1,61 @@
+.experience-page {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+.experience-page h1 {
+  font-family: var(--font-sans);
+  font-size: 2rem;
+  text-align: center;
+  color: var(--text);
+}
+.experience-cards {
+  gap: 2rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.job-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: var(--card);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.job-name {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  color: var(--text);
+  font-size: 1.25rem;
+}
+
+.job-company {
+  font-family: var(--font-sans);
+  text-align: left;
+  color: var(--purple-light);
+}
+.job-period {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  color: var(--muted);
+}
+.job-description {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  text-align: left;
+  color: var(--muted);
+  flex: 1;
+}
+
+.job-card:hover {
+  border-color: rgba(167, 139, 250, 0.4);
+}
